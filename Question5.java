@@ -46,11 +46,12 @@ public class Question5
         int numfreq = 0;
 
         for (int t = 0; t < num; t++) {
-            int thisnum = numbers.get(i);
+            int thisnum = numbers.get(t);
             if (currnum == thisnum){
               numfreq++;
             }
         }
+
 
       if (numfreq > freq){
         mode = currnum;
