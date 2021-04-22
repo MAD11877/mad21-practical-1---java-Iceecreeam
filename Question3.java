@@ -12,5 +12,10 @@ public class Question3
      
     Scanner in = new Scanner(System.in);
     
+    System.out.print("\nPlease input integer: ");
+    double num = in.nextInt();
+    System.out.print("New integer: " + num*num);
+
+    
   }
 }
