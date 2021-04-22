@@ -11,7 +11,7 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    double num = in.nextInt();
+    int num = in.nextInt();
     System.out.println(num*num);
 
     
